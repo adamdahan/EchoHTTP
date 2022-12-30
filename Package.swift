@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "EchoHTTP",
+    platforms: [
+        .iOS("14.0")
+    ],
     products: [
         .library(
             name: "EchoHTTP",
